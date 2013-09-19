@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dev_load", "dev_load\dev_load.vcxproj", "{7C5BA2D8-5121-4DD3-9A7D-0DAAF9703B67}"
+	ProjectSection(ProjectDependencies) = postProject
+		{584E01E4-0FF8-4FDE-BC04-2EEF946FB680} = {584E01E4-0FF8-4FDE-BC04-2EEF946FB680}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bf2_playground", "bf2_playground\bf2_playground.vcxproj", "{584E01E4-0FF8-4FDE-BC04-2EEF946FB680}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C5BA2D8-5121-4DD3-9A7D-0DAAF9703B67}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7C5BA2D8-5121-4DD3-9A7D-0DAAF9703B67}.Debug|Win32.Build.0 = Debug|Win32
+		{7C5BA2D8-5121-4DD3-9A7D-0DAAF9703B67}.Release|Win32.ActiveCfg = Release|Win32
+		{7C5BA2D8-5121-4DD3-9A7D-0DAAF9703B67}.Release|Win32.Build.0 = Release|Win32
+		{584E01E4-0FF8-4FDE-BC04-2EEF946FB680}.Debug|Win32.ActiveCfg = Debug|Win32
+		{584E01E4-0FF8-4FDE-BC04-2EEF946FB680}.Debug|Win32.Build.0 = Debug|Win32
+		{584E01E4-0FF8-4FDE-BC04-2EEF946FB680}.Release|Win32.ActiveCfg = Release|Win32
+		{584E01E4-0FF8-4FDE-BC04-2EEF946FB680}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
